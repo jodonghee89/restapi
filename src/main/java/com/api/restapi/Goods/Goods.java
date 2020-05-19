@@ -1,4 +1,4 @@
-package com.route61.ootd7Api.Goods;
+package com.api.restapi.Goods;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

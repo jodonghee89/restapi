@@ -1,13 +1,8 @@
-package com.route61.ootd7Api;
+package com.api.restapi;
 
-import static com.route61.ootd7Api.Goods.QGoods.goods;
-
-import com.querydsl.core.types.Projections;
+import com.api.restapi.Goods.Goods;
+import com.api.restapi.Goods.QGoods;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.route61.ootd7Api.Goods.Goods;
-import com.route61.ootd7Api.Goods.GoodsDto;
-import com.route61.ootd7Api.Goods.GoodsDto.GoodsInfo;
-import com.route61.ootd7Api.Goods.QGoods;
 import java.util.List;
 import javax.persistence.EntityManager;
 import org.junit.jupiter.api.Test;
@@ -26,9 +21,9 @@ class Ootd7ApiApplicationTests {
 		queryFactory = new JPAQueryFactory(em);
 
 		List<Goods> goodsList = queryFactory
-			.select(goods)
-			.from(goods)
-			.where(goods.citStatus.eq(1))
+			.select(QGoods.goods)
+			.from(QGoods.goods)
+			.where(QGoods.goods.citStatus.eq(1))
 			.fetch();
 
 		goodsList.forEach(goods -> {

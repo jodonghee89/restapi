@@ -1,9 +1,9 @@
-package com.route61.ootd7Api.common;
+package com.api.restapi.common;
 
 
+import com.api.restapi.common.model.ApiResponseModel;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
-import com.route61.ootd7Api.common.model.ApiResponseModel;
 import java.sql.SQLException;
 import javax.validation.ConstraintViolationException;
 import lombok.extern.slf4j.Slf4j;

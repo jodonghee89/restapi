@@ -1,4 +1,4 @@
-package com.route61.ootd7Api.common;
+package com.api.restapi.common;
 
 import lombok.RequiredArgsConstructor;
 
@@ -6,12 +6,6 @@ import lombok.RequiredArgsConstructor;
 public enum ApiCustomStatus {
 
     REQUEST_SUCCESS(0, "정상적으로 처리되었습니다."),
-
-    // TOKEN ERROR - 10XX
-    TOKEN_NOT_FOUND(1001, "토큰을 찾을수 없음"),
-    TOKEN_DATE_EXPIRED(1002, "토큰 유효기간 만료"),
-    TOKEN_INVALID(1003, "검증되지 않은 토큰"),
-    TOKEN_CREATED_FAILED(1004, "토큰 생성 Error, 다시 시도 해주세요."),
 
     LOGIN_FAILED(1101, "아이디, 비밀번호를 확인해주세요."),
 

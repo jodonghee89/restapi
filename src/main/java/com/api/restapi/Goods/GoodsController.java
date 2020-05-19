@@ -1,12 +1,11 @@
-package com.route61.ootd7Api.Goods;
+package com.api.restapi.Goods;
 
-import static com.route61.ootd7Api.Goods.GoodsDto.*;
+import static com.api.restapi.Goods.GoodsDto.*;
 import static org.springframework.http.MediaType.*;
 
-import com.route61.ootd7Api.common.model.ApiResponseModel;
+import com.api.restapi.common.model.ApiResponseModel;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

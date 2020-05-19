@@ -1,6 +1,6 @@
-package com.route61.ootd7Api.common.model;
+package com.api.restapi.common.model;
 
-import static com.route61.ootd7Api.common.ApiCustomStatus.*;
+import static com.api.restapi.common.ApiCustomStatus.*;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

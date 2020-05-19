@@ -1,10 +1,10 @@
-package com.route61.ootd7Api.Goods;
+package com.api.restapi.Goods;
 
-import static com.route61.ootd7Api.Goods.QGoods.*;
+import static com.api.restapi.Goods.QGoods.*;
 
+import com.api.restapi.Goods.GoodsDto.GoodsInfo;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.route61.ootd7Api.Goods.GoodsDto.GoodsInfo;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

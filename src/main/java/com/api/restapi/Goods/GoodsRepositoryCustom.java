@@ -1,6 +1,6 @@
-package com.route61.ootd7Api.Goods;
+package com.api.restapi.Goods;
 
-import com.route61.ootd7Api.Goods.GoodsDto.GoodsInfo;
+import com.api.restapi.Goods.GoodsDto.GoodsInfo;
 import java.util.List;
 
 public interface GoodsRepositoryCustom {

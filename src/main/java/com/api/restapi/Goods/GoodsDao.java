@@ -1,4 +1,4 @@
-package com.route61.ootd7Api.Goods;
+package com.api.restapi.Goods;
 
 import org.springframework.stereotype.Repository;
 

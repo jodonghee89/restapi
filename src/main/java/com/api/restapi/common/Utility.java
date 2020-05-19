@@ -1,4 +1,4 @@
-package com.route61.ootd7Api.common;
+package com.api.restapi.common;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import javax.persistence.EntityManager;
